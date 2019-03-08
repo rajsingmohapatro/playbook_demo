@@ -6,7 +6,7 @@ As we move higher up the Test Automation Pyramid, the effort becomes more costli
 
   
 
-![](images/119669966/119674171.jpg)
+![](../images/119669966/119674171.jpg)
 
 The general idea is to try and automate as much as possible which is of high value to the development teams and business.
 
@@ -30,9 +30,7 @@ Searching for a flight is vital to the business. If this breaks there's huge con
 
 ### Bad candidate example:
 
-There's a promo displayed on the home page for a 2 day sale. As this is a short term feature there's a low return on investment.
-
-  
+There's a promo displayed on the home page for a 2 day sale. As this is a short term feature there's a low return on investment.  
 
 Remember, sometimes you can have too much automation. If we spend all of our time on test automation we could end up with some [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost). Let's also not forget about the value of manual testing techniques such as [exploratory testing](http://www.satisfice.com/articles/what_is_et.shtml).
 

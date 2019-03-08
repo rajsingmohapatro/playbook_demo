@@ -2,7 +2,7 @@
 
 ## Continuous delivery from a quality perspective 
 
-![](images/119669972/119686272.png)
+![](../images/119669972/119686272.png)
 
 ## Decide What Test Cases to Automate
 
@@ -92,11 +92,11 @@ and manually tests all the scenarios and identify all the possible scenarios tha
 Release. We deploy the Release package on staging environment and trigger our Regression suit for every Release on staging environment. If
 everything looks good on our staging environment then we go for Blue green deployment on Production and trigger our Regression on blue and then green. A process snapshot from one of the existing teams looks like below.
 
-![](images/119669972/119675321.png){height="400"}
+![](../images/119669972/119675321.png)
 
 ## Cross browser testing
 
-![](images/119669972/119682705.jpg){height="250"}
+![](../images/119669972/119682705.jpg)
 
 -   Cross browser testing is a process that ensures your website or application behaves as expected across multiple browsers.
 -   Cross browser testing can be time consuming. Automated methods like unit testing, functional testing or visual regression do not capture cross browser bugs. So as of yet, it can only be done manually. Because every test starts from usage statistics, simplifying the statistics only makes sense. This means, taking into account only the meaningful platform/operating system/vendor/version combinations. For the most part, differences between versions, platforms and operating systems can be omitted.

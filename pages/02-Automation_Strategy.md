@@ -6,8 +6,8 @@ various types of Automated Tests and their ideal approx proportion
 within any automated test pack.
 
 <p float="left">
-  <img src="images/119669963/119672045.png" width="450" />
-  <img src="images/119669963/119671225.png" width="300" /> 
+  <img src="../images/119669963/119672045.png" width="450" />
+  <img src="../images/119669963/119671225.png" width="300" /> 
 </p> 
 
 ### Automated Unit Tests: 
