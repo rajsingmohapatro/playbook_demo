@@ -8,36 +8,29 @@
 -   [Test Automation](Test_Automation)
     -   [Automation Principles](Automation_Principles)
 
-    <!-- -->
 
     -   [Automation Strategy](Automation_Strategy)
 
-    <!-- -->
 
     -   [Automation Return on Investment
         (ROI)](Automation_Return_on_Investment_ROI_)
 
-    <!-- -->
 
     -   [Automation Best Practices](Automation_Best_Practices)
         -   [Continuous Integration / Continuous
             Delivery](Continuous_Integration_Continuous_Delivery)
 
-        <!-- -->
 
         -   [Decide What Test Cases to
             Automate](Decide_What_Test_Cases_to_Automate)
 
-        <!-- -->
 
         -   [Select the Right Automated Testing
             Tool](Select_the_Right_Automated_Testing_Tool)
 
-        <!-- -->
 
         -   [Test Early and Test Often](Test_Early_and_Test_Often)
 
-    <!-- -->
 
     -   [Automation Approach](Automation_Approach)
         -   [Web Applications](Web_Applications)
