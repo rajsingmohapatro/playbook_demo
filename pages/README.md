@@ -5,11 +5,11 @@ Welcome to Qantas Test Automation Playbook.
 ##Table of Contents
 
 
--   [Automation Principles](01-Automation_Principles.md)
--   [Automation Strategy](02-Automation_Strategy.md)
--   [Automation Return on Investment(ROI)](03-Automation_Return_on_Investment_ROI_.md)
+-   [Automation Principles](Automation_Principles.md)
+-   [Automation Strategy](Automation_Strategy.md)
+-   [Automation Return on Investment(ROI)](Automation_Return_on_Investment_ROI_.md)
 
--   [Automation Best Practices](04-Automation_Best_Practices.md)
+-   [Automation Best Practices](Automation_Best_Practices.md)
     -   [Continuous Integration / Continuous Delivery](Continuous_Integration_Continuous_Delivery.md)
     -   [Decide What Test Cases to Automate](Decide_What_Test_Cases_to_Automate.md)
     -   [Select the Right Automated Testing Tool](Select_the_Right_Automated_Testing_Tool.md)

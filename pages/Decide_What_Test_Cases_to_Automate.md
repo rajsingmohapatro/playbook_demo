@@ -21,7 +21,4 @@ automating:
     and configurations.
 -   Tests that take a lot of effort and time when manual testing.
 -   Tests to provide acceptable coverage over the various Test levels.
-    See: {link
-    to: [https://confluence.qantas.com.au/display/QQE/Test+Levels](https://apac01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fconfluence.qantas.com.au%2Fdisplay%2FQQE%2FTest%2BLevels&data=02%7C01%7C%7Ca860153bb71f4fbea86508d6776eb4a9%7C74ea519d97924aa986d9b7cab8204ddd%7C1%7C0%7C636827714704071741&sdata=C0cbHsJ%2FTWtzkMW8jhe8o5Q5YAnRM9trYogt8XvCq1Y%3D&reserved=0)}
-
-  
+    See: [Tes Levels](https://confluence.qantas.com.au/display/QQE/Test+Levels) 

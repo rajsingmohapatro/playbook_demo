@@ -7,12 +7,10 @@ client) to request a website from a web server by communicating with the
 server over HTTP or HTTPS.
 
 It is important that, as testers, when we are involved in Web Testing,
-we should be familiar with the basics of HTTP to get a good
-understanding of how web applications work.
+we should be familiar with the basics of HTTP to get a good understanding of how web applications work.
 
 Most web applications work in an agile development model with frequent
-releases, hence a need for frequent testing. In Web Testing, Test
-Automation can be of great benefit because it removes the burden of
+releases, hence a need for frequent testing. In Web Testing, Test Automation can be of great benefit because it removes the burden of
 repetitive work.
 
 As well as verifying functionality, we can also use automated scripts to
@@ -20,10 +18,7 @@ generate test data that we need during Web Testing.
 
 Another way automation can help in manual testing is tools can take
 screenshots of the actual browser page or record the test duration. If
-we need to visually check for a large number of pages, e.g. we want to
-know how the localised text renders on different webpages, we can use
-the tool to go through the pages and take screenshots and then quickly
-verify visually.
+we need to visually check for a large number of pages, e.g. we want to know how the localised text renders on different webpages, we can use the tool to go through the pages and take screenshots and then quickly verify visually.
 
 ### Cross-browser Web Testing
 
@@ -55,9 +50,7 @@ rest of the browsers.
 
 ### Analysing HTTP Traffic
 
-Quite often there is a need to analyse the HTTP traffic from the browser
-to the downstream servers. By analysing the web traffic we can dig down
-to the details of each request and response.
+Quite often there is a need to analyse the HTTP traffic from the browser to the downstream servers. By analysing the web traffic we can dig down to the details of each request and response.
 
 In Web Testing, analysing HTTP traffic  is particularly useful when
 testing third party tracking tags, such as Google Analytics tags or
@@ -95,8 +88,7 @@ phones than their desktop computers. This means that Web Testing is no
 longer restricted to browsers on desktops. We now have to test web
 applications on mobile platforms as well as desktops.
 
-There are two types of web applications for mobile devices, ones which
-are purposely developed for mobile platforms, and ones which are
+There are two types of web applications for mobile devices, ones which are purposely developed for mobile platforms, and ones which are
 “responsive”, i.e. there is only one version of the web application
 built for desktop and mobile devices but the application renders and is
 displayed differently depending on the size of the device.
@@ -127,8 +119,7 @@ will still need to carry out manual tests
 
 ### Important elements for Web Testing
 
-During Web Testing, as well as functional testing, we also need to check
-for and not limited to:
+During Web Testing, as well as functional testing, we also need to check for and not limited to:
 
 -   Javascript
 -   CSS
