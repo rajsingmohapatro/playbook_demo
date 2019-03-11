@@ -1,17 +1,13 @@
 # Test Reporting
 
-Because Cypress is built on top of Mocha, that means any reporter built
-for Mocha can be used with Cypress.
+Because Cypress is built on top of Mocha, that means any reporter built for Mocha can be used with Cypress.
 
-Cypress comes with two most common third party reporters for Mocha.
-These are built into Cypress and can be used without installing
-anything. 
+Cypress comes with two most common third party reporters for Mocha. These are built into Cypress and can be used without installing anything. 
 
 -   [`teamcity`](https://github.com/cypress-io/mocha-teamcity-reporter)
 -   `junit`
 
-Also, Cypress supports creating custom reporters or using any kind of
-3rd party reporters. 
+Also, Cypress supports creating custom reporters or using any kind of 3rd party reporters. 
 
 ## Local Reporters
 
@@ -39,8 +35,7 @@ Say you have the following directory structure:
 
   
 
-Most famous reporter built on mocha is mochawesome reporter that can be
-configured to create simple and user-friendly html reports. 
+Most famous reporter built on mocha is mochawesome reporter that can be configured to create simple and user-friendly html reports. 
 
 To install mochawesome reporter. 
 
@@ -52,7 +47,7 @@ To install mochawesome reporter. 
 }
 ```
 
-    Command line
+Command line
 
 ``` bash
 $ cypress run --reporter mochawesome
@@ -64,8 +59,7 @@ $ cypress run --reporter mochawesome
 
 # Reporter Options
 
-Some reporters accept options that customize their behavior. These can
-be specified in your `cypress.json` or via the command line:
+Some reporters accept options that customize their behavior. These can be specified in your `cypress.json` or via the command line:
 
 cypress.json
 
@@ -85,13 +79,8 @@ cypress.json
 $ cypress run --reporter junit --reporter-options "mochaFile=results/my-test-output.xml,toConsole=true"
 ```
 
-Reporter options differ depending on the reporter (and may not be
-supported at all). Refer to the documentation for the reporter you are
-using for details on which options are supported.
-
-  
+Reporter options differ depending on the reporter (and may not be supported at all). Refer to the documentation for the reporter you are using for details on which options are supported.
 
 Here is a sample Mochawesome report been generated. 
 
-![Mochawesome
-Screenshot](https://adamgruber.github.io/mochawesome/img/mochawesome-screen.png){height="400"}
+![Mochawesome Screenshot](https://adamgruber.github.io/mochawesome/img/mochawesome-screen.png){height="400"}

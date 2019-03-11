@@ -1,32 +1,23 @@
 # Sample Cypress Framework
 
-# What is Cypress:
+# 1. What is Cypress:
 
-Cypress is a next generation front end testing tool built for the modern
-web. We address the key pain points developers and QA engineers face
-when testing modern applications.
+Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications.
 
 It simplifies the process of: 
 
--   [Set up
-    tests](https://docs.cypress.io/guides/overview/why-cypress.html#Setting-up-tests)
--   [Write
-    tests](https://docs.cypress.io/guides/overview/why-cypress.html#Writing-tests)
--   [Run
-    tests](https://docs.cypress.io/guides/overview/why-cypress.html#Running-tests)
--   [Debug
-    Tests](https://docs.cypress.io/guides/overview/why-cypress.html#Debugging-tests)
+-   [Set up tests](https://docs.cypress.io/guides/overview/why-cypress.html#Setting-up-tests)
+-   [Write tests](https://docs.cypress.io/guides/overview/why-cypress.html#Writing-tests)
+-   [Run tests](https://docs.cypress.io/guides/overview/why-cypress.html#Running-tests)
+-   [Debug Tests](https://docs.cypress.io/guides/overview/why-cypress.html#Debugging-tests)
 
-Cypress is most often compared to Selenium; however Cypress is both
-fundamentally and architecturally different. Cypress is not constrained
-by the same restrictions as Selenium.
+Cypress is most often compared to Selenium; however Cypress is both fundamentally and architecturally different. Cypress is not constrained by the same restrictions as Selenium.
 
 This enables you to write faster, easier and more reliable tests.
 
-# Cypress Usage:
+# 2. Cypress Usage:
 
-Users of Cypress are typically developers or QA engineers building web
-applications using modern JavaScript frameworks.
+Users of Cypress are typically developers or QA engineers building web applications using modern JavaScript frameworks.
 
 Cypress enables you to write all types of tests:
 
@@ -36,12 +27,9 @@ Cypress enables you to write all types of tests:
 
 Cypress can test anything that runs in a browser.
 
-# Setting up Cypress:
+# 3. Setting up Cypress:
 
-There are no servers, drivers, or any other dependencies to install or
-configure. All it requires is that you have **npm (Node Package
-Manager)** installed on your machine and with a couple of steps you can
-start using Cypress. 
+There are no servers, drivers, or any other dependencies to install or configure. All it requires is that you have **npm (Node Package Manager)** installed on your machine and with a couple of steps you can start using Cypress. 
 
 1.  Check if you have node installed on your system;
 
@@ -52,8 +40,7 @@ start using Cypress. 
     6.5.0
     ```
 
-    If you don't have node installed, please download it from
-    [here.](https://nodejs.org/)
+    If you don't have node installed, please download it from [here.](https://nodejs.org/)
 
       
 
@@ -63,18 +50,13 @@ start using Cypress. 
     $ npm install cypress --save-dev
     ```
 
-3.  Once you have cypress installed, you can now open up an editor of
-    your choice, open up the folder where you installed cypress and
-    start writing tests. 
+3.  Once you have cypress installed, you can now open up an editor of your choice, open up the folder where you installed cypress and start writing tests. 
 
-# Understanding Cypress Structure:
+# 4. Understanding Cypress Structure:
 
-  
+## Folder Structure
 
-# Folder Structure
-
-After adding a new project, Cypress will automatically scaffold out a
-suggested folder structure. By default it will create:
+After adding a new project, Cypress will automatically scaffold out a suggested folder structure. By default it will create:
 
 ``` bash
 /cypress
@@ -113,25 +95,19 @@ suggested folder structure. By default it will create:
 
   
 
-## Configuring Folder Structure
+### Configuring Folder Structure
 
-While Cypress allows to configure where your tests, fixtures, and
-support files are located, if you’re starting your first project, It is
-recommended to use use the above structure.
+While Cypress allows to configure where your tests, fixtures, and support files are located, if you’re starting your first project, It is recommended to use use the above structure.
 
 You can modify the folder configuration in your `cypress.json`.
 
-## Fixture Files
+### Fixture Files
 
-Fixtures are used as external pieces of static data that can be used by
-your tests.
+Fixtures are used as external pieces of static data that can be used by your tests.
 
-You would typically use them with
-the [`cy.fixture()`](https://docs.cypress.io/api/commands/fixture.html) command
-and most often when you’re stubbing [Network
-Requests](https://docs.cypress.io/guides/guides/network-requests.html).
+You would typically use them with the [`cy.fixture()`](https://docs.cypress.io/api/commands/fixture.html) command and most often when you’re stubbing [Network Requests](https://docs.cypress.io/guides/guides/network-requests.html).
 
-## Test files
+### Test files
 
 Test files may be written as:
 
@@ -140,79 +116,51 @@ Test files may be written as:
 -   `.coffee`
 -   `.cjsx`
 
-Cypress also supports `ES2015` out of the box. You can use
-either `ES2015 modules` or `CommonJS modules`. This means you
-can `import` or `require` both npm packages and local relative modules.
+Cypress also supports `ES2015` out of the box. You can use either `ES2015 modules` or `CommonJS modules`. This means you can `import` or `require` both npm packages and local relative modules.
 
->  Example Recipe
->
->   
->
-> Check out our recipe using [ES2015 and CommonJS
-> modules](https://docs.cypress.io/examples/examples/recipes.html#Node-Modules).
+>Example Recipe
 
-To see an example of every command used in Cypress, open
-the `example` folder within your `cypress/integration` folder.
+>Check out our recipe using [ES2015 and CommonJS modules](https://docs.cypress.io/examples/examples/recipes.html#Node-Modules).
 
-To start writing tests for your app, simply create a new file
-like `app_spec.js `within your `cypress/integration` folder. Refresh
-your tests list in the Cypress Test Runner and your new file should have
-appeared in the list.
+To see an example of every command used in Cypress, open the `example` folder within your `cypress/integration` folder.
 
-## Plugin files
+To start writing tests for your app, simply create a new file like `app_spec.js `within your `cypress/integration` folder. Refresh your tests list in the Cypress Test Runner and your new file should have appeared in the list.
 
-By default Cypress will automatically include the plugins
-file `cypress/plugins/index.js` before every single spec file it runs.
-This is done purely as a convenience mechanism so you don’t have to
-import this file in every single one of your spec files.
+### Plugin files
 
-## Support file
+By default Cypress will automatically include the plugins file `cypress/plugins/index.js` before every single spec file it runs. This is done purely as a convenience mechanism so you don’t have to import this file in every single one of your spec files.
 
-By default Cypress will automatically include the support
-file `cypress/support/index.js`. This file runs before every single spec
-file . This is done purely as a convenience mechanism so you don’t have
-to import this file in every single one of your spec files.
+### Support file
 
-The support file is a great place to put reusable behavior such as
-Custom Commands or global overrides that you want applied and available
-to all of your spec files.
+By default Cypress will automatically include the support file `cypress/support/index.js`. This file runs before every single spec file . This is done purely as a convenience mechanism so you don’t have to import this file in every single one of your spec files.
 
-You can define your behaviors in a `beforeEach` within any of
-the `cypress/support` files:
+The support file is a great place to put reusable behavior such as Custom Commands or global overrides that you want applied and available to all of your spec files.
 
+You can define your behaviors in a `beforeEach` within any of the `cypress/support` files:
+```js
     beforeEach(function () {
       cy.log('I run before every test in every spec file!!!!!!')
     })
+```
+![global hooks](https://docs.cypress.io/img/guides/global-hooks.993be24d.png)
 
-![global
-hooks](https://docs.cypress.io/img/guides/global-hooks.993be24d.png){height="250"}
+>  Keep in mind, setting something in a global hook will render it less flexible for changes and for testing its behavior down the road.
 
->  Keep in mind, setting something in a global hook will render it less
-> flexible for changes and for testing its behavior down the road.
+From your support file you should also `import` or `require` other files to keep things organized.
 
-From your support file you should also `import` or `require` other files
-to keep things organized.
-
-Cypress automatically seed you an example support file, which has
-several commented out examples.
+Cypress automatically seed you an example support file, which has several commented out examples.
 
 # Writing tests
 
-Cypress is built on top
-of [Mocha](https://docs.cypress.io/guides/references/bundled-tools.html#Mocha) and [Chai](https://docs.cypress.io/guides/references/bundled-tools.html#Chai).
-We support both Chai’s `BDD` and `TDD` assertion styles. Tests you write
-in Cypress will mostly adhere to this style.
+Cypress is built on top of [Mocha](https://docs.cypress.io/guides/references/bundled-tools.html#Mocha) and [Chai](https://docs.cypress.io/guides/references/bundled-tools.html#Chai). It support both Chai’s `BDD` and `TDD` assertion styles. Tests you write in Cypress will mostly adhere to this style.
 
-If you’re familiar with writing tests in JavaScript, then writing tests
-in Cypress will be a breeze.
+If you’re familiar with writing tests in JavaScript, then writing tests in Cypress will be a breeze.
 
 ## Test Structure
 
-The test interface borrowed
-from [Mocha](https://docs.cypress.io/guides/references/bundled-tools.html#Mocha) provides `describe()`, `context()`, `it()` and `specify()`.
+The test interface borrowed from [Mocha](https://docs.cypress.io/guides/references/bundled-tools.html#Mocha) provides `describe()`, `context()`, `it()` and `specify()`.
 
-`context()` is identical to `describe()` and `specify()` is identical
-to `it()`, so choose whatever terminology works best for you.
+`context()` is identical to `describe()` and `specify()` is identical to `it()`, so choose whatever terminology works best for you.
 
 ``` js
 function add (a, b) {
@@ -256,12 +204,9 @@ describe('Unit test our math functions', function() {
 
 ## Hooks
 
-Cypress also provides hooks (borrowed
-from [Mocha](https://docs.cypress.io/guides/references/bundled-tools.html#Mocha)).
+Cypress also provides hooks (borrowed from [Mocha](https://docs.cypress.io/guides/references/bundled-tools.html#Mocha)).
 
-These are helpful to set conditions that you want to run before a set of
-tests or before each test. They’re also helpful to clean up conditions
-after a set of tests or after each test.
+These are helpful to set conditions that you want to run before a set of tests or before each test. They’re also helpful to clean up conditions after a set of tests or after each test.
 
 ``` js
 describe('Hooks', function() {
@@ -370,16 +315,14 @@ describe('if your app uses jQuery', function () {
     The code above will produce a suite with 4 tests:
 
     > if your app uses jQuery
-      > triggers event: 'mouseover'
-      > triggers event: 'mouseout'
-      > triggers event: 'mouseenter'
-      > triggers event: 'mouseleave'
+    > triggers event: 'mouseover'
+    > triggers event: 'mouseout'
+    > triggers event: 'mouseenter'
+    > triggers event: 'mouseleave'
 
 ## Assertion Styles
 
-Cypress supports both BDD (`expect`/`should`) and TDD (`assert`) style
-assertions. [Read more about
-assertions.](https://docs.cypress.io/guides/references/assertions.html)
+Cypress supports both BDD (`expect`/`should`) and TDD (`assert`) style assertions. [Read more about assertions.](https://docs.cypress.io/guides/references/assertions.html)
 
 ``` js
 it('can add numbers', function() {
@@ -393,18 +336,11 @@ it('can subtract numbers', function() {
 
 # Watching tests
 
-When running in interactive mode
-using [`cypress open`](https://docs.cypress.io/guides/guides/command-line.html#cypress-open) Cypress
-watches the filesystem for changes to your spec files. Soon after adding
-or updating a test Cypress will reload it and run all of the tests in
-that spec file.
+When running in interactive mode using [`cypress open`](https://docs.cypress.io/guides/guides/command-line.html#cypress-open) Cypress watches the filesystem for changes to your spec files. Soon after adding or updating a test Cypress will reload it and run all of the tests in that spec file.
 
-This makes for a productive development experience because you can add
-and edit tests as you’re implementing a feature and the Cypress user
-interface will always reflect the results of your latest edits.
+This makes for a productive development experience because you can add and edit tests as you’re implementing a feature and the Cypress user interface will always reflect the results of your latest edits.
 
-> Remember to
-> use [`.only`](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Excluding-and-Including-Tests) to
+> Remember to use [`.only`](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Excluding-and-Including-Tests) to
 > limit which tests are run: this can be especially useful when you’ve
 > got a lot of tests in a single spec file that you’re constantly
 > editing; consider also splitting your tests into smaller files each
@@ -423,8 +359,7 @@ Folders
 -   `cypress/support/`
 -   `cypress/plugins/`
 
-The folder, the files within the folder, and all child folders and their
-files (recursively) are watched.
+The folder, the files within the folder, and all child folders and their file (recursively) are watched.
 
 > Those folder paths refer to the [default folder
 > paths](https://docs.cypress.io/guides/references/configuration.html#Folders-Files).
@@ -439,8 +374,4 @@ Everything else; this includes, but isn’t limited to, the following:
 -   `node_modules`
 -   `cypress/fixtures/`
 
-If you’re developing using a modern JS-based web application stack then
-you’ve likely got support for some form of hot module replacement which
-is responsible for watching your application code—HTML, CSS, JS,
-etc.—and transparently reloading your application in response to
-changes.
+If you’re developing using a modern JS-based web application stack then you’ve likely got support for some form of hot module replacement which is responsible for watching your application code—HTML, CSS, JS, etc.—and transparently reloading your application in response to changes.
