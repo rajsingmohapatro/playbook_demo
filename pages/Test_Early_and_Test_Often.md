@@ -16,6 +16,6 @@ as IntelliJ and Eclipse, developers never have to leave the comfort of
 their ecosystem to validate application quality - meaning teams can
 quickly and easily shift left to deliver software faster.
 
-1.  See [Squads]](https://confluence.qantas.com.au/display/QQE/Squads) to understand QE ceremony roles and ways to influence other disciplines within your squad.
+1.  See [Squads](https://confluence.qantas.com.au/display/QQE/Squads) to understand QE ceremony roles and ways to influence other disciplines within your squad.
 
 ![](attachments/119682923/119682928.png)

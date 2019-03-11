@@ -1,12 +1,4 @@
 # Automated Accessibility Testing
-
-  
-- [Automated Accessibility Testing](#automated-accessibility-testing)
-- [**What is aXe**](#what-is-axe)
-- [**Automated Accessibility Test**](#automated-accessibility-test)
-- [**How to integrate to your existing test project**](#how-to-integrate-to-your-existing-test-project)
-- [**What can be configured for aXe Automation**](#what-can-be-configured-for-axe-automation)
-
   
 
 # **What is aXe**

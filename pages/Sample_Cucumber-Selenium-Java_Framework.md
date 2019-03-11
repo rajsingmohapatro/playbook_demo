@@ -1,21 +1,5 @@
 # Sample Cucumber-Selenium-Java Framework
 
-- [Sample Cucumber-Selenium-Java Framework](#sample-cucumber-selenium-java-framework)
-- [**Introduction**](#introduction)
-- [**What is the capability**](#what-is-the-capability)
-- [**Framework Versioning Strategy**](#framework-versioning-strategy)
-- [**Your test project looks like**](#your-test-project-looks-like)
-- [**Framework Configurations**](#framework-configurations)
-- [**Object Models**](#object-models)
-- [**Setup new test project**](#setup-new-test-project)
-- [**Common Function Helpers**](#common-function-helpers)
-- [**Advanced Features**](#advanced-features)
-    Helpers](#SampleCucumber-Selenium-JavaFramework-CommonFunctionHelpers)
--   [Advanced
-    Features](#SampleCucumber-Selenium-JavaFramework-AdvancedFeatures)
-
-  
-
 # **Introduction**
 
 [Qantas web automation test framework v2.0](https://stash.qcpaws.qantas.com.au/projects/AMS02-A974/repos/qwebauto/browse) is extracted from q.com regression test, which is the largest and most stable test suite in Qantas. This front-end test framework uses Java + Cucumber-JVM based tool sets, aiming to offer great capabilities to automate most front-end tests. By using this framework, a test suite can be setup in minutes without from scratch.
@@ -98,7 +82,7 @@ project.
 
     1.  Absolute Path: if a url value starts with 'http', getUrlConfig function will return this value straight away.
 
-    1.  Relative Path: On the other hand, if a url value does not start with 'http', it automatically uses homepage http scheme and domain as prefix. For instance in upper setting, the register\_path value in test environment is actually <http://www.test.qantas.com/register>  
+    2.  Relative Path: On the other hand, if a url value does not start with 'http', it automatically uses homepage http scheme and domain as prefix. For instance in upper setting, the register\_path value in test environment is actually <http://www.test.qantas.com/register>  
           
 
 4.  **Remote Driver**: remote driver config file is used to store different selenium/appium driver capability details and mapping to a name key, which need be indicated in global setting.  
