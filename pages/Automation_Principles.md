@@ -17,8 +17,9 @@ For the purpose of achieving fast feedback, majority of the
 verifications should be done as part of the development of new features. In other words development and testing should be a coherent activity, and quality should be “baked in” right from the start by ensuring that
 what is being developed works and that it hasn’t broken existing functionality. The industry standard recommendations for split of Q1 and Q2 automated tests as per the Testing quadrant below, should roughly follow the concept of "Test Automation Pyramid" as described [here](https://martinfowler.com/bliki/TestPyramid.html). This can be interpreted as per the diagram below:
 
-![](../images/113028109/119670956.png)
+![](attachments//113028109/119670956.png)
 
-![](../images/113028109/119670957.png)
-
-![](../images/113028109/119671994.png)
+<p float="left">
+  <img src="attachments/113028109/119670957.png" width="400" />
+  <img src="attachments/113028109/119671994.png" width="550" /> 
+</p> 

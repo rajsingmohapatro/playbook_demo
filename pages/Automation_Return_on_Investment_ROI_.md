@@ -6,7 +6,7 @@ As we move higher up the Test Automation Pyramid, the effort becomes more costli
 
   
 
-![](../images/119669966/119674171.jpg)
+![](attachments/119669966/119674171.jpg)
 
 The general idea is to try and automate as much as possible which is of high value to the development teams and business.
 

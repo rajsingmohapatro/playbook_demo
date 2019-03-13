@@ -1,0 +1,17 @@
+{
+    "name": "automation-playbook",
+    "version": "1.0.0",
+    "description": "Playbook for Test Automation",
+    "scripts": {
+        "test": "echo \"Error: no command specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/asimkazmi/playbook_demo.git"
+    },
+    "author": "QANTAS QE",
+    "license": "ISC",
+    "dependencies": {
+        "gitbook-cli": "^2.3.2"
+    }
+}
