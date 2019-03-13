@@ -42,15 +42,15 @@ ___
         - Git Book congfiguration File - DO NOT UPDATE
     README.md 
         - Readme file for this repository
+    .gitignore
+        - File used by git to ignore managing files from on your local  repository being pushed to remote.
     /pages
         - All Content Files 
         /attachments 
             - All attachments for the content pages
             - Supported File Types: JPEG, PNG, PDF, PPTX, MOV etc. 
         /images
-            - Images required by gitbook theme
-        .gitignore
-            -File used by git to ignore managing files from on your local repository being pushed to remote. 
+            - Images required by gitbook theme 
         /_book
             - Folder created by gitbook package to host and view contents locally. 
 ```    
@@ -58,4 +58,19 @@ ___
 ## How to View Contents in Git book style locally
 
 If you want to view how your content looks before publishing it to github repository, you can do installing the npm gitbook package. 
-
+```
+npm install 
+```
+- go to /pages folder
+  - Create the directories and files for a book from its SUMMARY.md file
+    ```
+    gitbook init
+    ```
+  - To serve a repository as a book
+    ```
+    gitbook serve
+    ``` 
+  - To build the static website
+    ```
+    gitbook build
+    ```
