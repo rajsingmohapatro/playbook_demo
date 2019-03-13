@@ -1,7 +1,8 @@
-# playbook_demo
+# Automation Playbook
 
 This Repo is linked with Automation Playbook hosted at gitbook.io
 
+To view the Book visit [Automation Playbook](https://qantasqe.gitbook.io/automationplaybook)
 ## How to Contribute:
 
 As the playbook is meant to be updated based on learnings of the team, it is essential to provide an entry point to contributing towards keeping it latest.
