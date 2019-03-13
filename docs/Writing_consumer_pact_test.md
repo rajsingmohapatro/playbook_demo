@@ -1,3 +1,0 @@
-# Writing consumer pact test
-
-  

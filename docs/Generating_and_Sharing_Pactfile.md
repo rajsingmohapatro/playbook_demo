@@ -1,3 +1,0 @@
-# Generating and Sharing Pactfile
-
-  

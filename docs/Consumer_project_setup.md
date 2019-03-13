@@ -1,3 +1,0 @@
-# Consumer project setup
-
-  
