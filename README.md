@@ -75,3 +75,7 @@ npm install
     ```
     gitbook build
     ```
+___
+## Additional Help: 
+
+For users/contributors new to Markdown format, please follow [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to format your files better. 
