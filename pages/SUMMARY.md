@@ -10,10 +10,11 @@
 -   [Automation Return on Investment(ROI)](Automation_Return_on_Investment_ROI_.md)
 
 -   [Automation Best Practices](Automation_Best_Practices.md)
-    -   [Continuous Integration / Continuous Delivery](Continuous_Integration_Continuous_Delivery.md)
     -   [Decide What Test Cases to Automate](Decide_What_Test_Cases_to_Automate.md)
     -   [Select the Right Automated Testing Tool](Select_the_Right_Automated_Testing_Tool.md)
     -   [Test Early and Test Often](Test_Early_and_Test_Often.md)
+    -   [Continuous Integration / Continuous Delivery](Continuous_Integration_Continuous_Delivery.md)
+    -   [Stubs, Mocks and Service Virtualization](Stubs_Mocks_and_Service_Virtualization.md)
 
 -   [Automation Approach](Automation_Approach.md)
     -   [Web Applications](Web_Applications.md)
