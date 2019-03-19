@@ -35,7 +35,16 @@ In order to contribute you would need to use the following process.
 - Assign Reviewers to it (Any one from the team can review but only Automation Guild Core Group can merge to master)
 - If there is review feedback, work on it and push to your branch so that it can be added to your pull request automatically. 
 - Once approved, your branch will be merged to master and the changes will be published on Gitbook. 
+
+## Pull request guidelines:
+
+Some tips to help get your pull request merged quickly:
+  - Try to keep the scope of change to 1 content page in the playbook.
+  - Add a useful description for the changes.
+  - Add the core_group and at least 1 other as reviewers. If you know someone who would be particularly interested in your change add them as a reviewer.
+  - Try and keep the style consistent with other pages, e.g. spacing, headings etc.
 ___
+
 ## Folder Structure: 
 ```txt
 /root
@@ -58,7 +67,7 @@ ___
 ___
 ## How to View Contents in Git book style locally
 
-If you want to view how your content looks before publishing it to github repository, you can do installing the npm gitbook package. 
+If you want to view how your content looks before publishing it to github repository, you can do so by installing the npm gitbook package. 
 ```
 npm install 
 ```
