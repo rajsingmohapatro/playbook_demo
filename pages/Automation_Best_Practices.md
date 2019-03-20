@@ -1,8 +1,8 @@
 # Automation Best Practices
 
-Automated Testing is an important testing activity during the software development lifecycle because it can provide quick feedback to the team when a new feature has been developed. It also removes the burden from QA to repeatedly run regression tests which saves time for QA to focus on other testing activities.
+Test Automation is an important testing activity during the software development lifecycle as it helps provide quick feedback to the team when a change in application code or logic is made. It also eases the burden of a human effort of repeated execution of regression tests resulting in more meaningful use of a QA Engineer's time towards exploratory testing.
 
-Test Automation, when done right, can be very beneficial to the team. The tips below will help you get the most value from your automated testing process and activity and highlights pitfalls to avoid when starting to automate your tests.
+Test Automation, when done right, can be very beneficial to the team. The ideas discussed below will help get the most value from a test automation process/activities and highlights pitfalls to avoid when starting the journey.
 
 #### Manual vs Automated – Testing vs Checking
 
@@ -12,13 +12,15 @@ On the other hand, during manual testing, tester’s brain is engaged and can sp
 
 #### Automate Regression Tests
 
-The main reason you want to automate a test is that you want to execute the test repeatedly on every new release. If the test is required to be executed only once, then the effort to automate the test can outweigh the benefits.
+One of the major reasons to automate a test is that you want to execute the test repeatedly on every new release. If the test is required to be executed only once, then the effort to automate the test can outweigh the benefits.
 
 Regression tests are required to be executed repeatedly as the software under test evolves. This can be very time consuming and a boring task for QA to have to run regression tests every day. Regression tests are good candidates for test automation.
 
+For example, here at Qantas, we have a release every week. We have more than 200 tests in the regression suite. Imagine the time and effort that would be needed to execute these tests manually. Also the chances of missing a test is high when executed manually. 
+
 #### Design Tests Before Automating Them
 
-It is always a good practice to create the test cases and scenarios before starting to automate the tests. It is the good test design that can help in identifying defects, automated tests only execute the test design.
+A good test design helps in identifying the most probable automation candidates, which will increase the probability to find defects.
 
 The danger in jumping straight to automation is that you’re only interested in making the script to work and usually only automate positive and happy flow scenarios rather than thinking about the other possible scenarios that can be tested.
 
@@ -33,6 +35,8 @@ If an automated test passes in one run and fails in the next run, without any ch
 When there are failures, we have to analyze the results to see what had gone wrong, and when we have lots of inconsistent or false positive results, it increases analysis time.
 
 Don’t be afraid to remove unstable tests from regression packs; instead, aim for consistent clean results that you can rely on.
+
+For example, there might be a scenario which is an edge case and the Engineer has automated it on Test Env. However this particular scenario might not be happening in staging or pre-prod. As a result this test passes on Test Env but consistently fails on Staging. It is better to remove such Tests.
 
 #### Review Automated Tests for Validity
 
@@ -56,7 +60,7 @@ The primary reason for test automation is to free up QA time for interesting exp
 
 Don’t expect automation to find lots of bugs. In fact, the number of bugs found by automation is always much less than manual and exploratory testing.
 
-#### Don’t Rely Solely on Automation – Beware of Passing Tests
+#### Don’t Rely Solely on Automation – Beware of False Positives
 
 Automated regression tests can give a sense of confidence for the team because regression tests should still pass as new functionality is delivered.The team starts relying on the tests and having a good set of regression tests can act as a safety net.
 
@@ -84,6 +88,8 @@ GUI Tests on the other hand test user flows and journeys. Generally, we would no
 The main purpose of UI tests is to ensure the whole system works as per some common user scenarios and use cases. Testing at this layer is more Validation rather than Verification
 
 At UI level, we automate scenarios rather than stories.
+
+Read more about Test Pyramid [here](https://www.agilecoachjournal.com/2014-01-28/the-agile-testing-pyramid).
 
 #### Don’t Automate Every Test
 
