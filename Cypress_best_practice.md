@@ -9,3 +9,4 @@
 * Having different environment configuration files (plugin/index.js)
 * reporting / mochaawesome
 * pageElement file. Elements per category (e.g. tabs, buttons, input field etc...)
+* iframe example
