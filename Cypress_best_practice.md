@@ -1,12 +1,47 @@
-* beforeEach() -> login via API set state of application
-* forEach() for looping through test data
-* breaking up spec files 
-* breaking up test data files
-* include description in test data files 
-* stub [Jun]
-* how share test data across test steps (call in before (not beforeEach)) 
-* Set state of test before running automation test
-* Having different environment configuration files (plugin/index.js)
-* reporting / mochaawesome
-* pageElement file. Elements per category (e.g. tabs, buttons, input field etc...)
-* iframe example
+# Cypress best practices
+
+The following page will document best practices when using Cypress for your UI automation framework.
+
+### Using beforeEach() hook to set state of your application
+
+
+
+### Using forEach() for iterating through test data
+
+
+
+### Structuring test files so they aren't large
+
+
+
+### Structuring test data files so they aren't large
+
+
+
+### Including descriptions in test data files 
+
+
+
+### How to use and setup Stub
+
+
+
+### How to call test data files and share across many test cases 
+
+
+
+### Setup different environment configuration files to execute across different environments (e.g. Dev / Stg / Prod)
+
+
+
+### Reporting test results 
+
+
+
+### Structuring and importing selectors from an external file and categorising them (e.g. tabs, buttons, input field etc...)
+
+
+
+### iFrame
+
+
