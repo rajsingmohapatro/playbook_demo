@@ -1,6 +1,6 @@
 # Automation Best Practices
 
-Test Automation is an important testing activity during the software development lifecycle as it helps provide quick feedback to the team when a change in application code or logic is made. It also eases the burden of a human effort of repeated execution of regression tests resulting in more meaningful use of a QA Engineer's time towards exploratory testing.
+Test Automation is an important testing activity during the software development lifecycle as it helps provide quick feedback to the team when a change in application code or logic is made. It also eases the burden of a human effort of repeated execution of regression tests resulting in more meaningful use of a Quality Engineer's time towards exploratory testing.
 
 Test Automation, when done right, can be very beneficial to the team. The ideas discussed below will help get the most value from a test automation process/activities and highlights pitfalls to avoid when starting the journey.
 
@@ -17,6 +17,12 @@ One of the major reasons to automate a test is that you want to execute the test
 Regression tests are required to be executed repeatedly as the software under test evolves. This can be very time consuming and a boring task for QA to have to run regression tests every day. Regression tests are good candidates for test automation.
 
 For example, here at Qantas, we have a release every week. We have more than 200 tests in the regression suite. Imagine the time and effort that would be needed to execute these tests manually. Also the chances of missing a test is high when executed manually. 
+
+#### Test Early and Test Often
+
+To get the most out of your automated testing, testing should be started as early as possible and ran as often as needed. The earlier testers get involved in the life cycle of the project the better, and the more you test, the more bugs you find. Automated unit testing can be implemented on day one and then you can gradually build your automated test suite. Bugs detected early are a lot cheaper to fix than those discovered later in production or deployment.
+
+With the shift left movement, developers and advanced testers are now empowered to build and run tests. Tools such as TestLeft allows users to run functional UI tests for web and desktop applications from within their favorite IDEs. With support for Visual Studio and Java IDEs such as IntelliJ and Eclipse, developers never have to leave the comfort of their ecosystem to validate application quality - meaning teams can quickly and easily shift left to deliver software faster.
 
 #### Design Tests Before Automating Them
 
