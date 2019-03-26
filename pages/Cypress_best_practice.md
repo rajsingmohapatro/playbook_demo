@@ -2,46 +2,45 @@
 
 The following page will document best practices when using Cypress for your UI automation framework.
 
-### Using beforeEach() hook to set state of your application
+### Using beforeEach() hook to set state of your application [Mo]
 
 
 
-### Using forEach() for iterating through test data
+### Using forEach() for iterating through test data [Mo]
 
 
 
-### Structuring test files so they aren't large
+### Structuring test script and test data files so they aren't large [Mo]
 
 
 
-### Structuring test data files so they aren't large
+### Including descriptions in test data files [Mo]
 
 
 
-### Including descriptions in test data files 
+### How to use and setup Stub [Jun]
 
 
 
-### How to use and setup Stub
+### How to call test data files and share across many test cases [Mo]
 
 
 
-### How to call test data files and share across many test cases 
+### Setup different environment configuration files to execute across different environments (e.g. Dev / Stg / Prod) [Jun]
 
 
 
-### Setup different environment configuration files to execute across different environments (e.g. Dev / Stg / Prod)
+### Reporting test results [Jun]
 
 
 
-### Reporting test results 
+### Structuring and importing selectors from an external file and categorising them (e.g. tabs, buttons, input field etc...) [Jun]
 
 
 
-### Structuring and importing selectors from an external file and categorising them (e.g. tabs, buttons, input field etc...)
+### iFrame [Mo]
 
 
 
-### iFrame
 
 
