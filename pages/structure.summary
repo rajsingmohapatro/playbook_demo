@@ -28,6 +28,7 @@
                 -   [Test Runner](Test_Runner.md)
                 -   [Test Reporting](Test_Reporting.md)
                 -   [Accessibility Testing using Axe](Accessibility_Testing_using_Axe.md)
+                -   [Cypress Sensible Defaults](Cypress_sensible_defaults.md)
         
         -   [Mobile Applications](Mobile_Applications.md)
             -   [Sample Appium - Java with AWS Device Farm Framework](Sample_Appium_-_Java_with_AWS_Device_Farm_Framework.md)
