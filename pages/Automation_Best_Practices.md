@@ -24,6 +24,16 @@ To get the most out of your automated testing, testing should be started as earl
 
 With the shift left movement, developers and advanced testers are now empowered to build and run tests. Tools such as TestLeft allows users to run functional UI tests for web and desktop applications from within their favorite IDEs. With support for Visual Studio and Java IDEs such as IntelliJ and Eclipse, developers never have to leave the comfort of their ecosystem to validate application quality - meaning teams can quickly and easily shift left to deliver software faster.
 
+#### Select the Right Automated Testing Tool
+Selecting an automated testing tool is essential for test automation. There are a lot of automated testing tools on the market, and it is important to choose the automated testing tool that best suits your overall requirements.
+
+Consider these key points when selecting an automated testing tool:
+
+Support for your platforms and technology. Are you testing .Net, C# or WPF applications and on what operating systems? Are you going to test web applications? Do you need support for mobile application testing? Do you work with Android or iOS, or do you work with both operating systems?
+Flexibility for testers of all skill levels. Can your QA department write automated test scripts or is there a need for keyword testing?
+Feature rich but also easy to create automated tests. Does the automated testing tool support record-and-playback test creation as well as manual creation of automated tests; does it include features for implementing checkpoints to verify values, databases, or key functionality of your application?
+Create automated tests that are reusable, maintainable and resistant to changes in the applications UI. Will my automated tests break if my UI changes?
+
 #### Design Tests Before Automating Them
 
 A good test design helps in identifying the most probable automation candidates, which will increase the probability to find defects.
@@ -31,6 +41,21 @@ A good test design helps in identifying the most probable automation candidates,
 The danger in jumping straight to automation is that you’re only interested in making the script to work and usually only automate positive and happy flow scenarios rather than thinking about the other possible scenarios that can be tested.
 
 Also, don’t reduce the scope of testing just to make the test work or pass.
+
+It is impossible to automate all testing, so it is important to determine what test cases should be automated first.
+
+The benefit of automated testing is linked to how many times a given test can be repeated. Tests that are only performed a few times are better left for manual testing. Good test cases for automation are ones that are run frequently and require large amounts of data to perform the same action.
+
+You can get the most benefit out of your automated testing efforts by automating:
+
+- Repetitive tests that run for multiple builds.
+- Tests that tend to cause human error.
+- Tests that require multiple data sets.
+- Frequently used functionality that introduces high risk conditions.
+- Tests that are impossible to perform manually.
+- Tests that run on several different hardware or software platforms and configurations.
+- Tests that take a lot of effort and time when manual testing.
+- Tests to provide acceptable coverage over the various Test levels
 
 #### Remove Uncertainty from Automated Tests
 

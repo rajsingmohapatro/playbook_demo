@@ -32,7 +32,8 @@ The goal of CI is to refine integration into a simple, easily-repeatable everyda
 
 #### Continuous Delivery (CD)
 
-Continuous delivery is actually an extension of CI, in which the software delivery process is automated further to enable easy and confident deployments into production at any time.
+Continuous delivery is actually an extension of CI, in which the software delivery process is automated further to enable easy and confident deployments into production at any time. In other words, the feature sets that are available are vetted, tested, debugged and ready to deploy, although you may not deploy at that moment.
+
 
 A mature continuous delivery process exhibits a codebase that is always deployable. With CD, software release becomes a routine and no frills event without anxiety or urgency. Teams are able to proceed with daily development tasks with the confidence that they can build a production-grade release ready to be deployed at any time without elaborate orchestration or special late-game testing.
 
@@ -51,8 +52,6 @@ Many consider continuous delivery attractive primarily because it automates all 
 Continuous deployment extends continuous delivery so that the software build will automatically deploy if it passes all tests. In such a process, there is no need for a person to decide when and what goes into production. The last step in a CI/CD system with continuous deployment will automatically deploy whatever build components/packages successfully exit the delivery pipeline. Such automatic deployments can be configured to quickly distribute components, features, and fixes to customers, and provide clarity on precisely what has been pushed to production.
 
 Organizations that employ continuous deployment will benefit immensely from the ability of users to give quick feedback on new deployments. Quick user response on unhelpful or misunderstood features will help the team refocus and avoid devoting more effort into functional areas that are unlikely to produce a good return on their investment. However, as features are being quickly delivered to users, any defects that become evident should be handled promptly or the team risks getting overloaded with trying to fix the latest bugs and release new features.
-
-
 
 At Qantas, we have successfully implemented CI and CD. We are striving hard to move towards Continuous Deployment, where we can have multiple releases on any given day and have minimal impact on the customers.
 
