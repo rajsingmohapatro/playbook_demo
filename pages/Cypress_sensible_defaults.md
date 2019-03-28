@@ -10,10 +10,12 @@ To prevent this it is best to set the state of the application, i.e. authenticat
 
 Here is an example:
 
-`beforeEach( function () {
+```
+beforeEach( function () {
     cy.loginViaAPI();
     cy.visit('/urlToTestPage')
-})`
+})
+```
 
 What this will do is prior to each test running:
 * authenticate the user via the API, calling a custom function `loginViaAPI` that we've developed which simply makes a post request to the ID server and creates the authenticated session. We do not want to authenticate via the UI as it's slow and prone to more issues.
@@ -22,12 +24,12 @@ What this will do is prior to each test running:
 The above will ensure each test is launched in a new state and that there are no interdependencies between one another.
 
 
+### Debugging
+
+
 ### Using forEach() for iterating through test data
 
-
-
 ### Structuring test files so they aren't large
-
 
 
 ### Structuring test data files so they aren't large
@@ -58,6 +60,21 @@ The above will ensure each test is launched in a new state and that there are no
 
 
 
-### iFrame
+### Targetting elements inside an < iFrame >
 
+Cypress does not yet officially support iframes (see https://github.com/cypress-io/cypress/issues/136) however the team are actively working on this and will release a version in the nearby future that does support it.
 
+There are a few work arounds for this if you search online. The code below is one such example. This basically involves wrapping the content of the iframe body, 'finding' the element you wish to act and then performing the relative action.
+
+Assuming you are wanting to select an element within an iframe with name 'iframe.dummyTest', you would do the following:
+
+```
+cy.get('iframe.dummyTest')
+.then(function ($iframe) {
+    const $body = $iframe.contents().find('body')
+    cy
+    .wrap($body)
+    .find('input:eq(0)') // here we are looking for the first input field on a form
+    .type(testData) // enter the testData in input:eq(0)
+})
+```
