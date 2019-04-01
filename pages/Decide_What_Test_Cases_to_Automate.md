@@ -1,24 +1,16 @@
 # Decide What Test Cases to Automate
 
-It is impossible to automate all testing, so it is important to
-determine what test cases should be automated first.
+There can be many permutations and combinations for a single test case, which can be leading to complex and unmaintainable test suite. Therefore, it is important to evaluate what test cases to automate beforehand.
 
-The benefit of automated testing is linked to how many times a given
-test can be repeated. Tests that are only performed a few times are
-better left for manual testing. Good test cases for automation are ones
-that are run frequently and require large amounts of data to perform the
-same action.
+Below are some type of tests that may provide good return on investment:
 
-You can get the most benefit out of your automated testing efforts by
-automating:
-
--   Repetitive tests that run for multiple builds.
--   Tests that tend to cause human error.
--   Tests that require multiple data sets.
--   Frequently used functionality that introduces high risk conditions.
--   Tests that are impossible to perform manually.
--   Tests that run on several different hardware or software platforms
-    and configurations.
--   Tests that take a lot of effort and time when manual testing.
--   Tests to provide acceptable coverage over the various Test levels.
-    See: [Tes Levels](https://confluence.qantas.com.au/display/QQE/Test+Levels) 
+- High risk tests that are usually critical for applications
+- Repetitive tests that run for multiple builds.
+- Tests that tend to cause human error.
+- Tests that require multiple data sets.
+- Frequently used functionality that introduces high risk conditions.
+- Tests that require complex computational steps.
+- Tests that run on several different hardware or software platforms
+  and configurations.
+- Tests that take a lot of effort and time when testing manually.
+- Tests to provide acceptable coverage over the various Test levels.
